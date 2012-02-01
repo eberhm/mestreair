@@ -1,0 +1,1 @@
+window.Mountain = window.BoardElement;
