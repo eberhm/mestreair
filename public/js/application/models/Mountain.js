@@ -1,1 +1,1 @@
-window.Mountain = window.BoardElement;
+var Mountain = BoardElement.extend({}, {});

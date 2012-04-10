@@ -1,38 +1,46 @@
 @CHARSET "UTF-8";
 
 .board {
-	background-color : blue;
+    background-color: blue;
 }
 
 .aircraft {
-	background-color : grey;
-    width:20;
-    height:20;
+    background-color: grey;
+    width: 20;
+    height: 20;
 }
 
 .mountain {
-	background-color : green;
-    width:20; 
-    height:20;
+    background-color: green;
+    width: 20;
+    height: 20;
 }
 
 .active {
-	background-color : orange;
+    background-color: orange;
+}
+
+.route.active {
+    background-color: pink !important;
 }
 
 .schedules {
-	border:1px solid black;
-	float: right;
-	padding-letf: 40px;
+    border: 1px solid black;
+    float: right;
+    padding-letf: 40px;
 }
 
 .controlls td {
-	border: 1px solid black;
-	width: 28px;
-	text-align: center;
+    border: 1px solid black;
+    width: 28px;
+    text-align: center;
 }
 
 .controlls {
-	float: right;
-    padding-right : 20px;
+    float: right;
+    padding-right: 20px;
+}
+
+.scoreBoard {
+    float: right;
 }

@@ -1,3 +1,3 @@
-	window.MountainList = Backbone.Collection.extend({
-		model : Mountain
-	});
+window.MountainList = Backbone.Collection.extend({
+    model:Mountain
+});
